@@ -12,9 +12,10 @@ jobs:
 #            uses: actions/checkout@v3 
 #            with:
 #                fetch-depth: 0
-    
-          - name: Qualys WAS scan action step
-            uses: Qualys/github_action_qwas@main
+
+          - name: Qualys GitHub actions for Web Application Scanning
+            uses: Qualys/github-action-qwas@v1.0.0
+      
             id: was
             with:
               API_SERVER: ${{ vars.API_SERVER }}
