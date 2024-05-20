@@ -26,8 +26,8 @@ jobs:
               SCAN_TYPE: ${{ vars.SCAN_TYPE }}
               TIMEOUT: ${{ vars.TIMEOUT }}
               AUTH_RECORD: ${{ vars.AUTH_RECORD }}
+              OPTION_PROFILE: ${{ vars.OPTION_PROFILE }}
             #   AUTH_RECORD_ID: ${{ vars.AUTH_RECORD_ID }}
-            #   OPTION_PROFILE: ${{ vars.OPTION_PROFILE }}
             #   OPTION_PROFILE_ID: ${{ vars.OPTION_PROFILE_ID }}
             #   CANCEL_OPTION: ${{ vars.CANCEL_OPTION }}
             #   CANCEL_HOURS: ${{ vars.CANCEL_HOURS }}
