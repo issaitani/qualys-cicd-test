@@ -38,3 +38,8 @@ jobs:
             #   WAIT_FOR_RESULT: ${{ vars.WAIT_FOR_RESULT }}
             #   INTERVAL: ${{ vars.INTERVAL }}
               
+          - name: Download Result
+            uses: actions/download-artifact@v3
+            with:
+             name: Qualys_WAS_Scan_Result
+             path: reports    
