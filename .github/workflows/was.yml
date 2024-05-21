@@ -8,10 +8,10 @@ jobs:
         runs-on: ubuntu-latest
         name: Qualys WAS Scan
         steps:
-          - name: Checkout
-            uses: actions/checkout@v3 
-            with:
-                fetch-depth: 0
+#          - name: Checkout
+#            uses: actions/checkout@v3 
+#            with:
+#                fetch-depth: 0
 
           - name: Qualys GitHub actions for Web Application Scanning
             uses: Qualys/github-action-qwas@v1.0.0
