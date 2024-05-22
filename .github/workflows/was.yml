@@ -1,4 +1,4 @@
-name: Qualys WAS Scan 
+name: Staging - Qualys WAS Scan 
 
 # This allows the workflow to be triggered manually
 on:
